@@ -30,7 +30,7 @@
         padding: 0 24px 0 24px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         height: 100vh;
       }
       .mobile-menu a {
@@ -63,10 +63,14 @@
       .mobile-menu .account-logout li {
         margin-bottom: 8px;
       }
+      .mobile-menu .account-logout{
+        margin-bottom: 26px;
+      }
     </style>
   </head>
   <body>
     <div class="mobile-menu">
+      <div>
       <ul>
         <li><a href="">CATEGORIES</a></li>
         <li><a href="">All</a></li>
@@ -80,6 +84,7 @@
         <li><a href="">My orders</a></li>
         <li><a href="">My account</a></li>
       </ul>
+    </div>
       <ul class="account-logout">
         <li><a href="" class="email">correo@example.com</a></li>
         <li><a href="" class="signout">Sign out</a></li>
